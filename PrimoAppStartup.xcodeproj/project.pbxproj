@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		365534021BF23D3400013466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365534011BF23D3400013466 /* AppDelegate.swift */; };
+		365534041BF23D3400013466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365534031BF23D3400013466 /* ViewController.swift */; };
+		365534071BF23D3400013466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365534051BF23D3400013466 /* Main.storyboard */; };
+		365534091BF23D3400013466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365534081BF23D3400013466 /* Assets.xcassets */; };
+		3655340C1BF23D3400013466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3655340A1BF23D3400013466 /* LaunchScreen.storyboard */; };
+		365534171BF23D3400013466 /* PrimoAppStartupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365534161BF23D3400013466 /* PrimoAppStartupTests.swift */; };
+		365534221BF23D3400013466 /* PrimoAppStartupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365534211BF23D3400013466 /* PrimoAppStartupUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		365534131BF23D3400013466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 365533F61BF23D3400013466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365533FD1BF23D3400013466;
+			remoteInfo = PrimoAppStartup;
+		};
+		3655341E1BF23D3400013466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 365533F61BF23D3400013466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365533FD1BF23D3400013466;
+			remoteInfo = PrimoAppStartup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		365533FE1BF23D3400013466 /* PrimoAppStartup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimoAppStartup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		365534011BF23D3400013466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		365534031BF23D3400013466 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		365534061BF23D3400013466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		365534081BF23D3400013466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3655340B1BF23D3400013466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3655340D1BF23D3400013466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365534121BF23D3400013466 /* PrimoAppStartupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimoAppStartupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		365534161BF23D3400013466 /* PrimoAppStartupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoAppStartupTests.swift; sourceTree = "<group>"; };
+		365534181BF23D3400013466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3655341D1BF23D3400013466 /* PrimoAppStartupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimoAppStartupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		365534211BF23D3400013466 /* PrimoAppStartupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoAppStartupUITests.swift; sourceTree = "<group>"; };
+		365534231BF23D3400013466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365533FB1BF23D3400013466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3655340F1BF23D3400013466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3655341A1BF23D3400013466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365533F51BF23D3400013466 = {
+			isa = PBXGroup;
+			children = (
+				365534001BF23D3400013466 /* PrimoAppStartup */,
+				365534151BF23D3400013466 /* PrimoAppStartupTests */,
+				365534201BF23D3400013466 /* PrimoAppStartupUITests */,
+				365533FF1BF23D3400013466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		365533FF1BF23D3400013466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365533FE1BF23D3400013466 /* PrimoAppStartup.app */,
+				365534121BF23D3400013466 /* PrimoAppStartupTests.xctest */,
+				3655341D1BF23D3400013466 /* PrimoAppStartupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		365534001BF23D3400013466 /* PrimoAppStartup */ = {
+			isa = PBXGroup;
+			children = (
+				365534011BF23D3400013466 /* AppDelegate.swift */,
+				365534031BF23D3400013466 /* ViewController.swift */,
+				365534051BF23D3400013466 /* Main.storyboard */,
+				365534081BF23D3400013466 /* Assets.xcassets */,
+				3655340A1BF23D3400013466 /* LaunchScreen.storyboard */,
+				3655340D1BF23D3400013466 /* Info.plist */,
+			);
+			path = PrimoAppStartup;
+			sourceTree = "<group>";
+		};
+		365534151BF23D3400013466 /* PrimoAppStartupTests */ = {
+			isa = PBXGroup;
+			children = (
+				365534161BF23D3400013466 /* PrimoAppStartupTests.swift */,
+				365534181BF23D3400013466 /* Info.plist */,
+			);
+			path = PrimoAppStartupTests;
+			sourceTree = "<group>";
+		};
+		365534201BF23D3400013466 /* PrimoAppStartupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				365534211BF23D3400013466 /* PrimoAppStartupUITests.swift */,
+				365534231BF23D3400013466 /* Info.plist */,
+			);
+			path = PrimoAppStartupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		365533FD1BF23D3400013466 /* PrimoAppStartup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365534261BF23D3400013466 /* Build configuration list for PBXNativeTarget "PrimoAppStartup" */;
+			buildPhases = (
+				365533FA1BF23D3400013466 /* Sources */,
+				365533FB1BF23D3400013466 /* Frameworks */,
+				365533FC1BF23D3400013466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimoAppStartup;
+			productName = PrimoAppStartup;
+			productReference = 365533FE1BF23D3400013466 /* PrimoAppStartup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		365534111BF23D3400013466 /* PrimoAppStartupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365534291BF23D3400013466 /* Build configuration list for PBXNativeTarget "PrimoAppStartupTests" */;
+			buildPhases = (
+				3655340E1BF23D3400013466 /* Sources */,
+				3655340F1BF23D3400013466 /* Frameworks */,
+				365534101BF23D3400013466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				365534141BF23D3400013466 /* PBXTargetDependency */,
+			);
+			name = PrimoAppStartupTests;
+			productName = PrimoAppStartupTests;
+			productReference = 365534121BF23D3400013466 /* PrimoAppStartupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3655341C1BF23D3400013466 /* PrimoAppStartupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3655342C1BF23D3400013466 /* Build configuration list for PBXNativeTarget "PrimoAppStartupUITests" */;
+			buildPhases = (
+				365534191BF23D3400013466 /* Sources */,
+				3655341A1BF23D3400013466 /* Frameworks */,
+				3655341B1BF23D3400013466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3655341F1BF23D3400013466 /* PBXTargetDependency */,
+			);
+			name = PrimoAppStartupUITests;
+			productName = PrimoAppStartupUITests;
+			productReference = 3655341D1BF23D3400013466 /* PrimoAppStartupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		365533F61BF23D3400013466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Emanuele Panizzi";
+				TargetAttributes = {
+					365533FD1BF23D3400013466 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					365534111BF23D3400013466 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 365533FD1BF23D3400013466;
+					};
+					3655341C1BF23D3400013466 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 365533FD1BF23D3400013466;
+					};
+				};
+			};
+			buildConfigurationList = 365533F91BF23D3400013466 /* Build configuration list for PBXProject "PrimoAppStartup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 365533F51BF23D3400013466;
+			productRefGroup = 365533FF1BF23D3400013466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365533FD1BF23D3400013466 /* PrimoAppStartup */,
+				365534111BF23D3400013466 /* PrimoAppStartupTests */,
+				3655341C1BF23D3400013466 /* PrimoAppStartupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365533FC1BF23D3400013466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3655340C1BF23D3400013466 /* LaunchScreen.storyboard in Resources */,
+				365534091BF23D3400013466 /* Assets.xcassets in Resources */,
+				365534071BF23D3400013466 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365534101BF23D3400013466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3655341B1BF23D3400013466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365533FA1BF23D3400013466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365534041BF23D3400013466 /* ViewController.swift in Sources */,
+				365534021BF23D3400013466 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3655340E1BF23D3400013466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365534171BF23D3400013466 /* PrimoAppStartupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365534191BF23D3400013466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365534221BF23D3400013466 /* PrimoAppStartupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		365534141BF23D3400013466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365533FD1BF23D3400013466 /* PrimoAppStartup */;
+			targetProxy = 365534131BF23D3400013466 /* PBXContainerItemProxy */;
+		};
+		3655341F1BF23D3400013466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365533FD1BF23D3400013466 /* PrimoAppStartup */;
+			targetProxy = 3655341E1BF23D3400013466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		365534051BF23D3400013466 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				365534061BF23D3400013466 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3655340A1BF23D3400013466 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3655340B1BF23D3400013466 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		365534241BF23D3400013466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		365534251BF23D3400013466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		365534271BF23D3400013466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimoAppStartup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.uniroma1.di.PrimoAppStartup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		365534281BF23D3400013466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimoAppStartup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.uniroma1.di.PrimoAppStartup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3655342A1BF23D3400013466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrimoAppStartupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.uniroma1.di.PrimoAppStartupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimoAppStartup.app/PrimoAppStartup";
+			};
+			name = Debug;
+		};
+		3655342B1BF23D3400013466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrimoAppStartupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.uniroma1.di.PrimoAppStartupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimoAppStartup.app/PrimoAppStartup";
+			};
+			name = Release;
+		};
+		3655342D1BF23D3400013466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrimoAppStartupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.uniroma1.di.PrimoAppStartupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrimoAppStartup;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3655342E1BF23D3400013466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrimoAppStartupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.uniroma1.di.PrimoAppStartupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrimoAppStartup;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365533F91BF23D3400013466 /* Build configuration list for PBXProject "PrimoAppStartup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365534241BF23D3400013466 /* Debug */,
+				365534251BF23D3400013466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365534261BF23D3400013466 /* Build configuration list for PBXNativeTarget "PrimoAppStartup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365534271BF23D3400013466 /* Debug */,
+				365534281BF23D3400013466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		365534291BF23D3400013466 /* Build configuration list for PBXNativeTarget "PrimoAppStartupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3655342A1BF23D3400013466 /* Debug */,
+				3655342B1BF23D3400013466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3655342C1BF23D3400013466 /* Build configuration list for PBXNativeTarget "PrimoAppStartupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3655342D1BF23D3400013466 /* Debug */,
+				3655342E1BF23D3400013466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 365533F61BF23D3400013466 /* Project object */;
+}
