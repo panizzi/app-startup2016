@@ -37,6 +37,7 @@ Martedì 10 novembre 2015
  * modifica della label nell'action del bottone
  * lancio della simulazione: quando avviene il cambiamento della label?
 
-### Slide della lezione: https://dl.dropboxusercontent.com/u/20679042/App%20e%20Startup%202015-16%20prima%20lezione.pdf
+### Slide della lezione: 
+https://dl.dropboxusercontent.com/u/20679042/App%20e%20Startup%202015-16%20prima%20lezione.pdf
 
 
